@@ -212,7 +212,7 @@ document.body.addEventListener('drop', function(e){
     e.preventDefault();
     var file = e.dataTransfer.files[0]
 
-    document.getElementById('test1').value="Source: "+file.name;
+    document.getElementById('sourceimage').value="Source: "+file.name;
 
 	var reader = new FileReader();
 
